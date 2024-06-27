@@ -1,0 +1,565 @@
+body{
+  margin: 0px;
+  font-family: garamond, serif;
+}
+main{
+  margin: auto;
+}
+.navbar ul{
+  list-stye-type: none;
+  text-decoration: none;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 115%;
+  list-style-type: none;
+}
+.navbar a:hover{
+  background-color: rgb(124,238,255);
+}
+.navbar li{
+  padding: 5px;
+  float: left;
+}
+.headerbar{
+  background-color: black;
+  margin: auto;
+  padding: inherit;
+}
+#colorado_flag{
+  background-color: black;
+  margin: auto;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  width: 100px;
+  length: 75px;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(124,238,255);
+  margin: auto;
+  padding: 20px;
+}
+.frontrange{
+  height: 500px;
+  position: relative;
+  background: white;
+}
+#cofrontrange{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.stateinfo {
+  font-family: georgia, serif;
+  display: block;
+  background-color: rgb(252,246,71);
+  padding: 20px;
+  margin: auto;
+  border: 5px solid black;
+}
+.socials{
+  background: white;
+  display: block;
+  float: right;
+  border: 2px inset black;
+  margin-top: -25px;
+  padding: 5px;
+}
+.socials h4{
+  text-align: center;
+  text-decoration: underline;
+}
+.socials ul{
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+}
+.socials img{
+  display: block;
+  width: 30px;
+  length: 15px;
+  margin-left: -30px;
+  margin-right: 5px;
+  border: 2px solid white;
+  align-items: center;
+  padding: 2px;
+}
+.stateinfo h3 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+.stateinfo p{
+  margin-left: 30px;
+  margin-right: 100px;
+}
+.populardestinations ul {
+  margin-top: 15px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.populardestinations h3 {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 24px;
+}
+.populardestinations img{
+  width: 50px;
+  padding: 20px;
+  display: block;
+  margin: 15px;
+  border: 5px double black;
+  border-radius: 20%;
+  margin-bottom: 20px;
+}
+.populardestinations a{
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-align; center;
+  text-decoration: none;
+}
+#populardestinations {
+  margin: auto;
+  display: block;
+  text-align: center;
+  border: 5px solid black;
+  background-color: rgb(124,238,255);
+}
+.populardestinations a:hover{
+  color: white;
+}
+.populardestinations li:hover{
+  color: white;
+}
+.bottomnav {
+  display: block;
+  text-align: center;
+}
+.bottomnav ul{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.bottomnav ul{
+  list-style: none;
+  list-stye-type: none;
+  text-decoration: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+.bottomnav a{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-size: 115%;
+}
+.bottomnav a:hover{
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+.bottomnav li{
+  list-style: none;
+  padding: 5px;
+  float: left;
+}
+.visitcolorado{
+  display: block;
+  margin: auto;
+  padding: inherit;
+}
+.visitcolorado {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.visitcolorado img{
+  width: 100%;
+  border: 5px solid black;
+  margin-top: 0px;
+  z-index: 1;
+}
+.visitcolorado h2{
+  position: absolute;
+  top: 20%;
+  bottom: 50%;
+  transform: translate(98%, 0%);
+  font-size: 45px;
+}
+#cityselection{
+  margin: 0 auto;
+}
+.cityselection{
+  display: block;
+  border: 2px solid black;
+  background: rgb(124,238,255);
+  border radius: 5%;
+  padding: 5px;
+  margin: 15px 500px;
+}
+.cityselection ol{
+  font-weight: bold;
+  font-size: 130%;
+  text-decoration: none;
+}
+.cityselection p{
+  font-weight: normal;
+  font-size: 85%;
+}
+.cityselection a{
+  text-decoration: none;
+  color: black;
+}
+.cityselection a:hover{
+  color: rgb(252,246,71);
+}
+.citypage{
+  background: rgb(255,254,195);
+  padding: inherit;
+}
+.citypage h1{
+  background: rgb(255,254,195);
+  text-decoration: underline;
+  font-size: 40px;
+}
+.citypage a{
+  color: rgb(70,175,255);
+}
+.citypage a:hover{
+  color: rgb(1,60,105);
+}
+.cityimg{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  border: 1px double black;
+  border-radius: 10%;
+  box-shadow: 0px 5px 10px 0px rgb(124,238,255);
+}
+#cityoverview{
+  display: block;
+  margin: 10px 325px;
+  border: 5px double black;
+  box-shadow: 0px 5px 10px 0px rgb(124,238,255);
+  align-self: center;
+  padding: 1px 10px;
+  border-top-right-radius: 25%;
+}
+#cityoverview h2{
+  text-decoration: underline;
+}
+#regioneconomy{
+  display: block;
+  margin: 10px 325px;
+  border: 5px double black;
+  box-shadow: 0px 5px 10px 0px rgb(124,238,255);
+  align-self: center;
+  padding: 1px 10px;
+  border-top-right-radius: 25%;
+}
+#regioneconomy h2{
+  text-decoration: underline;
+}
+#tourism{
+  display: block;
+  margin: 10px 325px;
+  border: 5px double black;
+  box-shadow: 0px 5px 10px 0px rgb(124,238,255);
+  align-self: center;
+  padding: 1px 10px;
+  border-top-right-radius: 25%;
+}
+#tourism h2{
+  text-decoration: underline;
+}
+.highlight{
+  color: rgb(70,175,255);
+}
+#sources{
+  font-size: 10px;
+  margin: auto;
+  padding-bottom: 3px;
+}
+.trainicon{
+  float: left;
+  border: 2px solid black;
+  display: block;
+  padding: 2px;
+  margin: auto;
+}
+.busicon{
+  float: left;
+  border: 2px solid black;
+  display: block;
+  padding: 2px;
+  margin: auto;
+}
+#transportation{
+  background-color: lightyellow;
+  font-family: monospace, OCR A Std;
+}
+.rtd {
+  display: block;
+  padding: 5px;
+  margin: 30px 300px;
+  border: 10px inset black;
+  background: rgb(124,238,255)
+}
+.rtdtable {
+  table-layout: fixed;
+  width: 100%;
+}
+.rtdtable th:nth-child(1) {
+  width: 60%;
+}
+.rtdtable th:nth-child(2) {
+  width: 10%;
+}
+.rtdtable th:nth-child(3) {
+  width: 20%;
+}
+.rtdtable th:nth-child(4) {
+  width: 10%;
+}
+.rtdtable caption{
+  font-size: 24px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 10px;
+}
+.rtdtable th{
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+  margin: auto;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+.rtdtable td{
+  margin-left: 2px;
+  padding: inherit;
+  letter-spacing: 1px;
+}
+.rtdtable a{
+  margin-top: 2px;
+  padding: 1px;
+}
+.rtdtable a:hover{
+  color: white;
+}
+.bustang {
+  display: block;
+  padding: 5px;
+  margin: 30px 300px;
+  border: 10px inset black;
+  background: rgb(124,238,255)
+}
+.bustangtable {
+  table-layout: fixed;
+  width: 100%;
+}
+.bustangtable th:nth-child(1) {
+  width: 50%;
+}
+.bustangtable th:nth-child(2) {
+  width: 8%;
+}
+.bustangtable th:nth-child(3) {
+  width: 30%;
+}
+.bustangtable th:nth-child(4) {
+  width: 8%;
+}
+.bustangtable caption{
+  font-size: 24px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 10px;
+}
+.bustangtable th{
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+  margin: auto;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+.bustangtable td{
+  margin-left: 2px;
+  padding: inherit;
+  letter-spacing: 0px;
+}
+.bustangtable a{
+  margin-top: 2px;
+  padding: 1px;
+}
+.bustangtable a:hover{
+  color: white;
+}
+#contactform h2{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px;
+  font-weight: bold;
+}
+input[type=text], select, textarea{
+  width: 60%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+input[type=button] {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  min-width: 75px;
+  min-height: 30px;
+}
+input[type=button]:hover {
+  background-color: rgb(180,180,180);
+}
+.contactform{
+  border-radius: 5px;
+  background-color: gray;
+  padding: 20px;
+  margin: 30px 350px;
+  text-align: center;
+}
+input{
+  min-width: 250px;
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+  min-height: 25px;
+  text-align: justify;
+  font-style: italic;
+}
+textarea{
+  min-width: 250px;
+  margin: auto;
+  margin-top: 4px;
+  display: block;
+  border-radius: 5px;
+  min-height: 25px;
+  text-align: justify;
+  font-style: italic;
+}
+label{
+  font-size: 16px;
+  color: white;
+  margin: 2px;
+  padding: inherit;
+  text-decoration: underline;
+}
+#confirmemail {
+  text-align: center;
+  font-weight: none;
+  font-size: 18px;
+  font-style: none;
+  color: red;
+  letter-spacing: 1px;
+  background-color: white;
+  margin: auto;
+}
+@media all {
+  .apa,     .apa ul,     .apa ol,     .apa dl,
+  .ref-apa, .ref-apa ul, .ref-apa ol, .ref-apa dl,
+  .apa-ref, .apa-ref ul, .apa-ref ol, .apa-ref dl,
+  .refapa,  .refapa ul,  .refapa ol,  .refapa dl,
+  .aparef,  .aparef ul,  .aparef ol,  .aparef dl{
+  padding-left: 0;margin-left: 0;
+  }
+  .apa li,
+  .ref-apa li,
+  .refapa li,
+  .apa-ref li,
+  .aparef li{
+  list-style-type: none;
+  }
+  .apa p,     .apa li,     .apa dd,
+  .ref-apa p, .ref-apa li, .ref-apa dd,
+  .refapa p,  .refapa li,  .refapa dd,
+  .apa-ref p, .apa-ref li, .apa-ref dd,
+  .aparef p,  .aparef li,  .aparef dd{
+  margin-left:   2em;
+  text-indent:  -2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  }
+  .ref-apa dt{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: .83em 0;
+  }
+}
+@media print {
+
+  .apa p,     .apa li,     .apa dd,
+  .ref-apa p, .ref-apa li, .ref-apa dd,
+  .refapa p,  .refapa li,  .refapa dd,
+  .apa-ref p, .apa-ref li, .apa-ref dd,
+  .aparef p,  .aparef li,  .aparef dd{
+  margin-left:   .5in;
+  text-indent:  -.5in;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  }
+}
+#references {
+  font-size: 140%;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+.apa-ref {
+  text-decoration: none;
+  text-align: left;
+  font-size: 80%;
+  margin-left: 30px;
+  font-weight: normal;
+  font-style: normal;
+  margin-right: 50px;
+}
